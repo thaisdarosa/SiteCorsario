@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Córsario Filmes - Busca de Filmes e Séries</title>
+ 
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <header>
+    <div class="logo">
+      <h1>🏴‍☠️ Córsario Filmes</h1>
+      <p>Mais de 1.000.000 de itens para te indicar entre filmes e séries</p>
+    </div>
+  </header>
+
+  <main>
+    <section class="busca">
+      <h2>Encontre filmes por gênero</h2>
+      <div class="busca-form">
+        <input type="text" id="generoInput" placeholder="Ex: ação, comédia, terror..." />
+        <button id="buscarBtn">Buscar</button>
+      </div>
+    </section>
+
+
+    <section id="resultados" class="resultados">
+      <h3>Resultados</h3>
+      <div id="listaFilmes" class="lista-filmes"></div>
+  
+      <div id="recomendacaoIA" class="recomendacao-ia"></div>
+    </section>
+
+  </main>
+
+  <footer>
+    <p>Desenvolvido para a disciplina de Desenvolvimento Web - 1º semestre</p>
+  </footer>
+
+ 
+  <script src="script.js"></script>
+</body>
+</html>
