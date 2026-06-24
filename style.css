@@ -108,11 +108,24 @@ h2, h3 {
     padding: 15px;
     border-radius: 8px;
     border-left: 4px solid #d4a843;
+    text-align: center;
 }
 
 .filme-card:hover {
     transform: translateY(-4px);
     box-shadow: 0 6px 14px rgba(0,0,0,0.5);
+}
+
+.filme-card img.poster {
+    width: 100%;
+    max-width: 200px;
+    height: auto;
+    border-radius: 6px;
+    margin-bottom: 10px;
+    border: 2px solid #d4a843;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .filme-card h4 {
